@@ -28,7 +28,7 @@ export function base32Encode(buffer: Buffer): string {
   }
 
   return output;
-}
+} 
 
 /**
  * Decode Base32 string to buffer
