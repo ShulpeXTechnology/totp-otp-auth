@@ -5,7 +5,7 @@
 
 A production-ready, zero-dependency TOTP/OTP authentication library for Node.js, Bun, and Deno. Generate secure secrets, QR codes, and verify time-based tokens compatible with **Google Authenticator**, **Authy**, and **Microsoft Authenticator**.
 
-## ✨ Features
+## ✨ Features 
 
 - 🔐 **RFC 6238 (TOTP) & RFC 4226 (HOTP) compliant**
 - 🎯 **Zero dependencies** - uses only native Node.js crypto
@@ -573,6 +573,8 @@ If you have any questions or need help, please:
 ---
 
 **Made with ❤️ for secure authentication**
-#   t o t p - o t p - a u t h  
- #   t o t p - o t p - a u t h  
+#   t o t p - o t p - a u t h 
+ 
+ #   t o t p - o t p - a u t h 
+ 
  
