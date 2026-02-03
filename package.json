@@ -1,0 +1,65 @@
+{
+  "name": "totp-otp-auth",
+  "version": "1.0.0",
+  "description": "Production-ready TOTP/OTP library with zero dependencies. Generate secrets, QR codes, and verify time-based tokens compatible with Google Authenticator, Authy, and Microsoft Authenticator.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc --module commonjs --outDir dist",
+    "build:esm": "tsc --module esnext --outDir dist/esm && node scripts/rename-esm.js",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist",
+    "test": "node test/test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "totp",
+    "otp",
+    "2fa",
+    "two-factor",
+    "authentication",
+    "authenticator",
+    "google-authenticator",
+    "authy",
+    "qrcode",
+    "security",
+    "rfc6238",
+    "hotp",
+    "time-based",
+    "one-time-password"
+  ],
+  "author": "iimazin11",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iimazin11/totp-otp-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iimazin11/totp-otp-auth/issues"
+  },
+  "homepage": "https://github.com/iimazin11/totp-otp-auth#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/qrcode": "^1.5.6",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
