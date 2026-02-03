@@ -1,6 +1,7 @@
 # TOTP/OTP Auth Library
 
 [![npm version](https://badge.fury.io/js/totp-otp-auth.svg)](https://www.npmjs.com/package/totp-otp-auth)
+![npm version](https://img.shields.io/npm/v/totp-otp-auth?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A production-ready, zero-dependency TOTP/OTP authentication library for Node.js, Bun, and Deno. Generate secure secrets, QR codes, and verify time-based tokens compatible with **Google Authenticator**, **Authy**, and **Microsoft Authenticator**.
